@@ -1,0 +1,20 @@
+#signup{
+    width: 30%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+ #form > input{
+    width: 90%;
+    display: block;
+    margin: auto;
+    font-size: 25px;
+    margin-bottom: 0px;
+ }
+ .nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  #log{
+    font-size: 20px;
+  }
