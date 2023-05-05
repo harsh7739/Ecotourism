@@ -1,21 +1,34 @@
 
     let mainSec = document.getElementById("mainSection")
-    let addDataBtn = document.getElementById("addData")
-    let patchDataBtn = document.getElementById("patchData")
 
+    let pageButton = document.getElementById("pageNumber")
 
-    let imageInput = document.getElementById("img")
-    let locationInput = document.getElementById("loca")
-    let titlInput = document.getElementById("titl")
-    let descInput = document.getElementById("desc")
-    let idInput = document.getElementById("id")
+    let page = 1
 
-    function fetchedData(){
+    function fetchedData(page){
 
-    let API = "https://mock-server-2-uziz.onrender.com/users"
+    let API = `https://mock-server-new-br13.onrender.com/users?_page=${page}&_limit=10`
+
     let response = fetch(API)
 
         response.then(function(res){
+
+            let totalCount = res.headers.get("x-total-count")
+
+            let totalRequiredBtn = Math.ceil(totalCount/10)
+
+            pageButton.innerHTML = ""
+
+            for(let i=1; i<=totalRequiredBtn; i++){
+
+                let buttonPage = document.createElement("button")
+                buttonPage.setAttribute("data-page-number", i)
+
+                buttonPage.innerText = i
+
+                pageButton.append(buttonPage)
+            }
+
        return res.json()
     })
     .then(function(data){
@@ -25,7 +38,16 @@
 
     }
 
-    fetchedData()
+    fetchedData(page)
+
+    pageButton.addEventListener("click", function(e){
+
+        let pageNumber = e.target.getAttribute("data-page-number")
+
+        // console.log(pageNumber)
+
+        fetchedData(pageNumber)
+    })
 
     function display(data){
         mainSec.innerHTML=""
@@ -53,37 +75,3 @@
             mainSec.append(card)
         })
     }
-
-    addDataBtn.addEventListener("click", function(){
-
-        let API = "https://mock-server-2-uziz.onrender.com/users"
-        let response = fetch(API, {
-
-            method: 'POST',
-            body: JSON.stringify({
-                
-                "image": imageInput.value,
-                "location": locationInput.value,
-                "title": titlInput.value,
-                "details": descInput.value
-            }),
-
-            headers: {
-                'Content-type': 'application/json'
-            }
-        })
-
-        response.then(function(res){
-            return res.json()
-        })
-        .then(function(data){
-            console.log(data)
-            fetchedData()
-        })
-    })
-
-    // patchDataBtn.addEventListener("click", function(){
-
-
-    // })
-
