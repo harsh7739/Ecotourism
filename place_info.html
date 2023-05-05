@@ -4,9 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home page</title>
-  </head>
+    <script
+      src="https://kit.fontawesome.com/7a4d6432b5.js"
+      crossorigin="anonymous"
+    ></script>
 
+    <title>Document</title>
+  </head>
   <style>
     * {
       margin: 0;
@@ -16,10 +20,9 @@
         Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
         sans-serif;
     }
-    button{
-      cursor: pointer;
+    body {
+      /* background-color: #0d5066; */
     }
-
     /* nav */
     nav {
       display: flex;
@@ -47,8 +50,7 @@
     }
 
     #signInbtn button {
-      width: 100px;
-      height: 40px;
+      padding: 5px 15px;
       font-size: larger;
       background-color: #ffd75a;
       border-radius: 25px;
@@ -114,64 +116,102 @@
       font-weight: bold;
     }
     /* footer end*/
-
     #destination {
+      /* display: flex;
+      justify-content: center; */
+    }
+    .ds_info {
+      display: grid;
+      grid-template-columns: 60% 40%;
+      /* border: 1px solid red; */
+      /* display: flex;
+      flex-wrap: wrap; */
+      margin: 20px auto;
+      gap: 20px;
+      width: 100%;
+      justify-content: center;
+      padding: 0 100px;
+    }
+    .image {
+      /* border: 1px solid rgb(0, 89, 255); */
+    }
+    .image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+    .plinfo {
+      /* border: 1px solid rgb(8, 120, 77); */
       padding: 20px;
       display: grid;
-      grid-template-columns: repeat(auto-fit, 600px);
-      gap: 20px;
-      justify-content: center;
-    }
-    .ds_places {
-      border-radius: 8px;
-      overflow: hidden;
+      gap: 10px;
+      border-radius: 16px;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+    .plinfo img {
+      width: 100%;
+    }
+
+    .book_btn {
+      border-radius: 4px;
+      font-weight: bold;
+      border: none;
+      background: #ffd75a;
+      font-size: 16px;
+      border: 2px solid transparent;
+      padding: 10px;
+    }
+    .book_btn:hover {
+      color: black;
+      font-size: 16px;
+      background: none;
+      border: 2px solid black;
+    }
+    .ds_summary {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      margin: 10px 90px;
+      /* border: 1px solid red; */
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    }
+    .ds_summary img {
+      border-radius: 16px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      flex-grow: 1;
+    }
+    .sum_img {
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      /* background-color: red; */
+    }
+    .sum_detal {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      font-weight: 400;
+      font-size: 20px;
+      /* background: linear-gradient(-45deg, #4e9890, #005d53); */
+
+      /* color: white; */
+    }
+    .package {
+      margin: 30px 10px;
+      text-align: center;
+    }
+    .plinfo i{
+        width: 25px;
+    }
+    button{
       cursor: pointer;
     }
-    .ds_image {
-    }
-    .ds_image > img {
-      width: 100%;
-      height: 320px;
-      object-fit: cover;
-    }
-    .ds_details {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
-    }
-    .ds_loc {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
-      color: rgb(63, 63, 63);
-
-    }
-    .ds_details h3 {
-      width: 40px;
-      height: 40px;
-      color: white;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 18px;
-    }
-    .ds_details h4 {
-      font-size: 18px;
-      color: rgb(63, 63, 63);
-
-    }
-    .red{
-      background-color: red;
-    }
-    .green{
-      background-color: green;
-    }
   </style>
-
   <body>
     <nav>
       <div id="navImage">
@@ -205,12 +245,10 @@
       </div>
 
       <div id="signInbtn">
-        <button>Sign In</button>
+        <button><i class="fa-solid fa-user"></i> Sign In</button>
       </div>
     </nav>
-
     <div id="destination"></div>
-
     <footer>
       <div id="footerSec">
         <span> <b>QUICK LINKS</b></span>
@@ -269,9 +307,8 @@
       </div>
     </footer>
     <div id="copyright">
-      <p>2023 © Green Escapes Eco Tourism. All right reserved.</p>
-  </div>
+        <p>2023 © Green Escapes Eco Tourism. All right reserved.</p>
+    </div>
   </body>
-
-  <script src="place_details.js"></script>
+  <script src="place_info.js"></script>
 </html>
