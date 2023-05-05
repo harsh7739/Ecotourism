@@ -11,28 +11,34 @@
 
 <body>
   <div class="nav">
-    <a href="./login.html">Signup</a>
-    <a href="./signin.html">Signin</a>
+    <a href="./signin.html" id="navSignin">Signin</a>
+    <a href="./signup.html" id="navSignup">Signup</a>
   </div>
+  <div id="signupMain">
+    <div id="welcome">
+      <img src="https://t3.ftcdn.net/jpg/00/71/74/56/240_F_71745670_b2ehPBS5664wtO3iBwMcmvIkiw3wC6sd.jpg" alt="">
+      
+    </div>
   <div id="signup">
-    <h1>Please Enter Your Details</h1>
+    <h1 id="head">Please Enter Your Details</h1>
     <form id="form">
-        <h4>Enter your name</h4>
+        <h2 class="inputEntry">Enter your name</h2>
       <input type="text" id="name" placeholder="Enter name here">
        <br>
-       <h4>Enter your email</h4>
+       <h2 class="inputEntry">Enter your email</h2>
       <input type="email" id="email" placeholder="Enter email here">
        <br>
-       <h4>Enter password</h4>
+       <h2 class="inputEntry">Enter password</h2>
       <input type="password"  id="password" placeholder="Enter password">
        <br>
       
       <input type="submit" value="Submit" />
     </form>
     <div id="log">
-      <p>If you have already account ? <a href="./login.html">login</a></p>
+      <p>If you have already account ? <a href="./signin.html">signin</a></p>
     </div>
   </div>
+</div>
 </body>
 <script src="./scripts/signup.js"></script>
   

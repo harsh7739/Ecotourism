@@ -8,7 +8,7 @@ let form = document.querySelector("form")
   let data = JSON.parse(localStorage.getItem("account-data")) || []
   form.addEventListener("submit",myFun)
 
-  function myFun(){
+  function myFun(event){
     event.preventDefault()
     
     // console.log("harsh")
@@ -17,10 +17,9 @@ let form = document.querySelector("form")
       email:email.value,
       pass:pass.value
     }
-    // console.log(obj)
-    // if(email.includes())
+    
     data.push(obj)
     // signupdiv.append(data)
     localStorage.setItem("account-data",JSON.stringify(data))
-    window.location.href = "./login.html"
+    window.location.href = "./signin.html"
   }

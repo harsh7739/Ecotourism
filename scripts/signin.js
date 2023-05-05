@@ -1,3 +1,11 @@
+let navSignin = document.getElementById("navSignin")
+navSignin.addEventListener("click",()=>{
+    window.location.href="./signin.html"
+})
+let navSignup = document.getElementById("navSignin")
+navSignup.addEventListener("click",()=>{
+    window.location.href="./signup.html"
+})
 let indata = JSON.parse(localStorage.getItem("account-data"))
       
 let form1 = document.querySelector("form")
@@ -9,7 +17,7 @@ let passEl = document.getElementById("passEl")
 
 form1.addEventListener("submit",signFun)
 
-function signFun(){
+function signFun(event){
   event.preventDefault()
   passEl.innerText=""
   head.innerText="Please Enter Your Details"
