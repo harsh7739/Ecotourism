@@ -1,195 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home page</title>
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECO TOURISM</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav>
+        <div id="navImage">
+            <img style="width: 150px; height: 50px;" src="https://ecotourism.org/wp-content/uploads/2019/01/ties_logo_horizontal-1.png" alt="">
+        </div>
 
-  <style>
-    .nav {
-      border: 2px solid red;
-      height: 100px;
-    }
+        <div id="navMenu">
 
-    #card1 {
-      display: flex;
-      /* border: 1px solid rgb(27, 22, 22); */
-      width: 90%;
-      justify-content: space-evenly;
-      margin-top: 70px;
-      gap: 30px;
-      box-shadow: rgba(0, 0, 0, 0.33) 0px 10px 20px,
-        rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    }
+            <div>
+                <a href="">Home</a>
+            </div>
 
-    #box1 {
-      background-color: yellow;
-      width: 40%;
-      cursor: pointer;
-    }
+            <div>
+                <a href="">Destination</a>
+            </div>
+            
+            <div>
+                <a href="">Activities</a>
+            </div>
+            
+            <div>
+                <a href="">Packages</a>
+            </div>
+            
+            <div>
+                <a href="">About Us</a>
+            </div>
+            
+        </div>
 
-    #box1 img {
-      width: 100%;
-      height: 100%;
-    }
-    /* #box1 img:hover{
-       cursor: pointer;
-    } */
+        <div id="signInbtn">
+            <button>Sign In</button>
+        </div>
+    </nav>
 
-    #box2 {
-      width: 70%;
-      padding: 20px;
-      /* box-shadow: rgba(0, 0, 0, 0.33) 0px 10px 20px; */
-      /* cursor: pointer; */
-    }
+    <div id="mainBody">
 
-    #adil {
-      /* border: 2px solid green; */
-      width: max-content;
-      padding: 10px;
-      margin: 10px auto;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-    }
+        <img id="mainimg" src="index/background.png" alt="">
 
-    #logo {
-      /* background-color: yellow; */
-      width: 360px;
-      height: 100px;
-    }
-
-    .detail-button{
-      padding: 10px 20px;
-      border: transparent;
-      color: white;
-      background-color: teal;
-      border-radius: 4px;
-    }
-  </style>
-
-  <body>
-    <div class="nav">
-      <h3>Trip to bangalore</h3>
+        <div id="text">
+            <h1>  <span>Experience the Best of Nature and </span> <br> Culture in the Heart of the Countryside</h1>
+            <p>Join us on a journey through the rolling hills, rich farmlands, and charming rural village. <br> 
+            Discove a world where the beauty of nauture meets the richness of culture.</p>
+            <button>Start Exploring</button>
+        </div>
+        
     </div>
 
-    <div id="tour">
-      <div id="card1">
-        <div id="box1">
-          <img
-            src="	https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4e/9c/01/guest-room.jpg?w=1200&h=-1&s=1"
-          />
+    <div id="midBody">
+       <h1>Why choose us ?</h1>
+       <p>We are a local travel agency which deals in making a <b>comfortable</b> and <b>safe eco tours.</b>
+        We take bookings, offer the best price without any interference of middleman. The facilities we
+        provide within this price range are impossible for any other tour operators. We do not charge
+        extra for food, it is included in the pakage you book. Moreover, the food is prepared maintaining
+        all hygiene. Local tour guides are available with our guests who knows about every corner of your favourite
+        destination. We provide Pick up and drop facility from your respective airport. We provide both AC and
+        non-AC accommodation to our guests. <b>Book your dream destination now !!</b>
+       </p>
+       <div id="iconCont">
+        <div>
+            <img src="https://img.icons8.com/?size=512&id=GdpMSTwPFyuD&format=png" alt="">
+            <h4>Eventful Itineraries</h4>
+            <p>For a journey filled with surprises</p>
         </div>
 
-        <div id="box2">
-          <h1>The oberoi ground</h1>
-          <div class="rating">
-
-           <p>Rating:- ⭐ <span>4.1</span></p>
-          </div>
-          <div class="package">
-            Package start from:-₹20000f
-          </div>
-
-          <!-- dsecription -->
-          <p>
-           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore provident voluptate molestiae fuga ducimus atque eaque tempore, porro ea repudiandae cumque doloribus animi tenetur ab doloremque pariatur ipsa necessitatibus dignissimos.
-          </p>
-
-          <button class="detail-button">VIEW DETAILS</button>
-          </div>
-        </div>
-      </div>
-    <div id="tour">
-      <div id="card1">
-        <div id="box1">
-          <img
-            src="	https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4e/9c/01/guest-room.jpg?w=1200&h=-1&s=1"
-          />
+        <div>
+            <img src="https://img.icons8.com/?size=512&id=124073&format=png" alt="">
+            <h4>Variety in Packages</h4>
+            <p>Choose packages as per your budget</p>
         </div>
 
-        <div id="box2">
-          <h1>The oberoi ground</h1>
-          <div class="rating">
-
-           <p>Rating:- ⭐ <span>4.1</span></p>
-          </div>
-          <div class="package">
-            Package start from:-₹20000f
-          </div>
-
-          <!-- dsecription -->
-          <p>
-           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore provident voluptate molestiae fuga ducimus atque eaque tempore, porro ea repudiandae cumque doloribus animi tenetur ab doloremque pariatur ipsa necessitatibus dignissimos.
-          </p>
-
-          <button class="detail-button">VIEW DETAILS</button>
-          </div>
-        </div>
-      </div>
-    <div id="tour">
-      <div id="card1">
-        <div id="box1">
-          <img
-            src="	https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4e/9c/01/guest-room.jpg?w=1200&h=-1&s=1"
-          />
+        <div>
+            <img src="https://img.icons8.com/?size=512&id=AEj6GBunmH1w&format=png" alt="">
+            <h4>Customer Support</h4>
+            <p>Get complete assistance</p>
         </div>
 
-        <div id="box2">
-          <h1>The oberoi ground</h1>
-          <div class="rating">
-
-           <p>Rating:- ⭐ <span>4.1</span></p>
-          </div>
-          <div class="package">
-            Package start from:-₹20000f
-          </div>
-
-          <!-- dsecription -->
-          <p>
-           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore provident voluptate molestiae fuga ducimus atque eaque tempore, porro ea repudiandae cumque doloribus animi tenetur ab doloremque pariatur ipsa necessitatibus dignissimos.
-          </p>
-
-          <button class="detail-button">VIEW DETAILS</button>
-          </div>
+        <div>
+            <img src="https://img.icons8.com/?size=512&id=UNnue1nN3EPg&format=png" alt="">
+            <h4>Reasonable Rates</h4>
+            <p>Our rates assure an affordable journey</p>
         </div>
-      </div>
-    <div id="tour">
-      <div id="card1">
-        <div id="box1">
-          <img
-            src="	https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4e/9c/01/guest-room.jpg?w=1200&h=-1&s=1"
-          />
+       </div>
+    </div>
+
+    <div id="servicesSec">
+        <h1>Our Services Include</h1>
+        <div id="serviceIcon">
+            <div>
+                <img src="https://img.icons8.com/?size=512&id=VDNQFWU0FBTq&format=png" alt="">
+                <h4>ACCOMODATION</h4>
+                <p>We try to provide the best accomodation that is possible to provide.</p>
+            </div>
+
+            <div>
+                <img src="https://img.icons8.com/?size=512&id=JlgFIiFnLKfX&format=png" alt="">
+                <h4>PRIVACY</h4>
+                <p>We value the privacy of our visitors. We try to keep our visitors safe and sound.</p>
+            </div>
+
+            <div>
+                <img src="https://img.icons8.com/?size=512&id=SENAO5gAbChk&format=png" alt="">
+                <h4>GOOD FOOD</h4>
+                <p>We provide the best kind of regional food to satisfy your delicacy.</p>
+            </div>
+
+            <div>
+                <img src="https://img.icons8.com/?size=512&id=j2SfqDojO0h4&format=png" alt="">
+                <h4>TRANSPORT</h4>
+                <p>We provide the best transport for our visitors so that they can enjoy their trip.</p>
+            </div>
+
+            <div>
+                <img src="https://img.icons8.com/?size=512&id=trsCZxEJArXb&format=png" alt="">
+                <h4>SAFETY</h4>
+                <p>We provide extreme safety of our visitors while they are on the safari.</p>
+            </div>
+
+            <div>
+                <img src="https://img.icons8.com/?size=512&id=rEvs4RThYzFT&format=png" alt="">
+                <h4>SIGHT SEEING</h4>
+                <p>We assure our visitors the best view of all the nearest tourist spots.</p>
+            </div>
+
+            <div>
+                <img src="https://img.icons8.com/?size=512&id=OESdlMYQIKWs&format=png" alt="">
+                <h4>DOCTOR ON CALL</h4>
+                <p>24 X 7 Doctors' service is available through phone call.</p>
+            </div>
+
+            <div>
+                <img src="https://img.icons8.com/?size=512&id=zj3DcmZWeFJJ&format=png" alt="">
+                <h4>Wi-Fi</h4>
+                <p>We provide 24 X 7 Internet to all of our customers.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+    
+        <div id="footerSec">
+            <span> <b>QUICK LINKS</b></span>
+            <a href="">- Faq's</a>
+            <a href="">- Privacy Policy</a>
+            <a href="">- Terms & Conditions</a>
+            <a href="">- Sitemap</a>
+            <a href="">- Cookies Policy</a>
+            <a href="">- Cancellation & Refund Policy</a>
         </div>
 
-        <div id="box2">
-          <h1>The oberoi ground</h1>
-          <div class="rating">
+        <div id="footerMidSec">
 
-           <p>Rating:- ⭐ <span>4.1</span></p>
-          </div>
-          <div class="package">
-            Package start from:-₹20000f
-          </div>
+            <span> <b>FOLLOW US ON</b></span>
+            <div>
+                <img src="index/Untitled_design__5_-removebg-preview.png" alt="">
+                <p>Instagram</p>
+            </div>
 
-          <!-- dsecription -->
-          <p>
-           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore provident voluptate molestiae fuga ducimus atque eaque tempore, porro ea repudiandae cumque doloribus animi tenetur ab doloremque pariatur ipsa necessitatibus dignissimos.
-          </p>
+            <div>
+                <img src="index/Untitled_design__6_-removebg-preview.png" alt="">
+                <p>Facebook</p>
+            </div>
 
-          <button class="detail-button">VIEW DETAILS</button>
-          </div>
+            <div>
+                <img src="index/erest__1_-removebg-preview.png" alt="">
+                <p>Twitter</p>
+            </div>
+
+            <div>
+                <img src="index/erest-removebg-preview.png" alt="">
+                <p>Pinterest</p>
+            </div>
+            
         </div>
-      </div>
-      
 
-   
-  </body>
+        <div id="footerRight">
+            <span><b>GET IN TOUCH</b></span>
+            <div>
+                <img src="index/email.png" alt="">
+                <p>greenescapes@gmail.com</p>
+            </div>
+            <div>
+                <img src="index/call.png" alt="">
+                <p>+91 7985413975</p>
+            </div>
+            <div>
+                <img src="index/location.png" alt="">
+                <p>Regd. Address: Sarojini nagar, <br> New Delhi, 847211</p>
+            </div>
+            <div>
+                <img src="index/linkedin.png" alt="">
+                <p>Green Escapes</p>
+            </div>
+        </div>
+        
+    </footer>
 
-
-
-
-  </script>
+    <div id="copyright">
+        <p>2023 © Green Escapes Eco Tourism. All right reserved.</p>
+    </div>
+</body>
 </html>
