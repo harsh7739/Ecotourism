@@ -1,9 +1,9 @@
 
 
-let data = JSON.parse(localStorage.getItem("placeDetails"))
+let data = JSON.parse(localStorage.getItem("placeDetails")) 
 let place_parent = document.getElementById("destination");
 
-console.log(data);
+// console.log(data);
 
 function show_places(data) {
       let {name,img1,img2,img3,price ,Rating,duration ,description ,info,location,map } =data
@@ -27,7 +27,7 @@ function show_places(data) {
             src=${map}
             alt=""
           />
-          <button class="book_btn"><i class="fa-sharp fa-solid fa-ticket fa-beat-fade"></i> Book Trip</button>
+          <a href="payment.html" class="book_btn"><i class="fa-sharp fa-solid fa-ticket fa-beat-fade"></i> Book Trip</a>
         </div>
       </div>
       <h2 class="package">Package information</h2>
@@ -57,8 +57,11 @@ function show_places(data) {
       </div>`
   
       place_parent.append(div)
+
+
   
   
   
   }
+
 show_places(data);
