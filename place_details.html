@@ -237,12 +237,31 @@
 
 }
 
+
+/* media query */
+
+
+@media only screen and (max-width: 600px) {
+  #destination {
+      padding: 10px;
+      /* display: grid; */
+      grid-template-columns: repeat(1,100%);
+      gap: 20px;
+      justify-content: center;
+    }
+
+
+    
+
+}
+
+
  
 
   </style>
 
   <body>
-    <nav>
+    <!-- <nav>
       <div id="navImage">
         <img
           style="width: 150px; height: 50px"
@@ -276,13 +295,13 @@
       <div id="signInbtn">
         <button>Sign In</button>
       </div>
-    </nav>
+    </nav> -->
 
     
     <!-- filter -->
 
     <!-- <div class="fil_place"> -->
-      <div class="div_fil">
+      <!-- <div class="div_fil">
         <select class="fil_by_loc">
           <option value="">Filter By Place</option>
           <option value="Delhi">Delhi</option>
@@ -296,7 +315,7 @@
         <div>
           <input id="Search" type="text" placeholder="Search"/>
         </div>
-      </div>
+      </div> -->
   
       <!-- </div> -->
   
@@ -304,7 +323,7 @@
 
    
 
-   <div id="slideshow">
+   <!-- <div id="slideshow">
       <div>
         <img src="https://wallpapers.com/images/high/ultra-wide-nature-wg3fo21njjv2n9nd.webp" alt="">
         <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/11/cover-image-of-Things-To-Do-In-Goa_22nd-nov.jpg" alt="">
@@ -335,7 +354,7 @@
       </div>  
      
     </div> 
- 
+  -->
 
     
 
@@ -399,9 +418,12 @@
         </div>
       </div>
     </footer>
+
     <div id="copyright">
       <p>2023 © Green Escapes Eco Tourism. All right reserved.</p>
     </div>
+
+
   </body>
 
   <script src="place_details.js"></script>
