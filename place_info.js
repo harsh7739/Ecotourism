@@ -65,3 +65,20 @@ function show_places(data) {
   }
 
 show_places(data);
+
+
+
+
+let navMenu = document.getElementById("navMenu");
+let close_btn = document.getElementById("close_btn");
+
+close_btn.addEventListener("click" , ()=>{
+  if (navMenu.style.right == '0px') {
+    navMenu.style.right = '-100%'
+    navMenu.style.display = 'none'
+  }
+  else{
+    navMenu.style.right = '0px'
+    navMenu.style.display = 'flex'
+  }
+})

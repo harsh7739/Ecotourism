@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7a4d6432b5.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Home page</title>
   </head>
 
@@ -26,7 +30,11 @@
       justify-content: space-around;
       align-items: center;
       background-color: #4e9890;
-      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
     }
 
     #navMenu {
@@ -51,15 +59,16 @@
       border-radius: 4px;
     }
 
-    #signInbtn button {
-      width: 100px;
-      height: 40px;
+    #signInbtn a {
       font-size: larger;
       background-color: #ffd75a;
       border-radius: 25px;
       border: none;
       font-weight: 700;
       box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      text-decoration: none;
+      padding: 5px 10px;
+      color: black;
     }
 
     /* nav */
@@ -174,6 +183,10 @@
       background-color: green;
     }
 
+    .fil_place{
+      margin-top: 54px;
+    }
+
     .div_fil {
       display: flex;
       gap: 10px;
@@ -181,64 +194,165 @@
       background-color: #4e9890;
       padding: 5px;
     }
-    .div_fil input{
+    #abcd > input{
       padding: 5px 10px;
-    border-radius: 4px;
-    width: 500px;
-    background-color: rgb(255 215 90);
-    color: rgb(0, 0, 0);
-    border: none;
-    font-weight: bold;
+      border-radius: 4px;
+      width: 500px;
+      background-color: rgb(255 215 90);
+      color: rgb(0, 0, 0);
+      border: none;
+      font-weight: bold;
+      height: 100%;
     }
-    .div_fil button , .div_fil select{
+    .div_fil button,
+    .div_fil select {
       padding: 5px 10px;
-    border-radius: 4px;
-    background-color: rgb(255 215 90);
-    color: black;
-    border: none;
-    font-weight: bold;
+      border-radius: 4px;
+      background-color: rgb(255 215 90);
+      color: black;
+      border: none;
+      font-weight: bold;
     }
-
 
     #slideshow {
-  position: relative;
-  width: 100%;
-  height: 400px; 
-  /* overflow: hidden; */
-  margin-top: 20px;
-}
+      position: relative;
+      width: 100%;
+      height: 400px;
+      /* overflow: hidden; */
+      margin-top: 20px;
+    }
 
-#slideshow img {
-  
-  width: 49%;
-  height: 100%;
-  /* padding: 0 10px; */
-  /* margin: 20px 0; */
-  border-radius: 16px;
-  opacity: 1;
-  object-fit: cover;
-  transition: opacity 1s ease-in-out;
-}
-#slideshow div{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  justify-content: space-evenly;
-  transition: top 2s;
-}
+    #slideshow img {
+      width: 49%;
+      height: 100%;
+      /* padding: 0 10px; */
+      /* margin: 20px 0; */
+      border-radius: 16px;
+      opacity: 1;
+      object-fit: cover;
+      transition: opacity 1s ease-in-out;
+    }
+    #slideshow div {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      justify-content: space-evenly;
+      transition: top 2s;
+    }
 
-#slideshow div.active {
-  /* top: 100%; */
+    #slideshow div.active {
+      /* top: 100%; */
 
-  z-index: 2;
+      z-index: 2;
+    }
+    #sort_btn {
+      padding: 2px 20px;
+      border-radius: 4px;
+      background-color: #ffd75a;
+      font-weight: bold;
+      border: none;
+      
+    }
+    #close_btn{
+      display: none;
+    }
+    #sorting{
+      display: flex;
+    gap: 10px;
+    color: white;
 
-}
+    }
+    #sorting > div > div{
+      display: grid;
+    grid-template-columns: 37px 100px 75px;
+    gap: 15px;
+    font-weight: 600;
+    align-items: center;
+    }
 
- 
+    /* media query */
 
+    @media only screen and (max-width: 500px) {
+      #destination {
+        padding: 20px;
+        grid-template-columns: repeat(1, 100%);
+        gap: 20px;
+        justify-content: center;
+      }
+
+      footer {
+        margin-top: 10px;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        margin-top: 10px;
+      }
+      #footerSec a {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        color: white;
+        text-decoration: none;
+      }
+
+      #copyright {
+        background-color: rgb(255 215 90);
+      }
+      nav {
+        background-color: #4e9890;
+      }
+
+      #navMenu {
+        position: absolute;
+        background: #4e9890;
+        top: 93px;
+        height: 100vh;
+        right: -100%;
+        justify-content: flex-start;
+        padding: 15px;
+        gap: 15px;
+        flex-direction: column;
+        display: none;
+        transition: right 1.5s;
+      }
+      #abcd > input {
+        width: auto;
+      }
+      #slideshow {
+        display: none;
+      }
+      #close_btn {
+        width: max-content;
+        background-color: white;
+        border: none;
+        text-align: right;
+        width: max-content;
+        background-color: white;
+        border: none;
+        text-align: right;
+        font-size: larger;
+        background-color: #ffd75a;
+        border-radius: 25px;
+        border: none;
+        font-weight: 700;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        text-decoration: none;
+        padding: 5px 10px;
+        color: black;
+        display: block;
+      }
+      #sorting{
+        display: none;
+      }
+      #signInbtn{
+        display: flex;
+        gap: 10px;
+      }
+    }
   </style>
 
   <body>
@@ -253,35 +367,37 @@
 
       <div id="navMenu">
         <div>
-          <a href="index.html">Home</a>
+          <a href="index.html"><i class="fa-solid fa-house"></i>Home</a>
         </div>
 
         <div>
-          <a href="place_details.html">Destination</a>
+          <a href="place_details.html"
+            ><i class="fa-solid fa-plane-departure"></i>Destination</a
+          >
         </div>
 
         <div>
-          <a href="">Activities</a>
+          <a href=""><i class="fa-solid fa-chart-line"></i>Activities</a>
         </div>
 
         <div>
-          <a href="">Packages</a>
+          <a href=""><i class="fa-solid fa-box-open"></i>Packages</a>
         </div>
 
         <div>
-          <a href="">About Us</a>
+          <a href=""><i class="fa-solid fa-address-card"></i>About Us</a>
         </div>
       </div>
 
       <div id="signInbtn">
-        <button>Sign In</button>
+        <a href="signin.html"><i class="fa-solid fa-user"></i> Sign In</a>
+        <button id="close_btn"><i class="fa-solid fa-bars"></i></button>
       </div>
     </nav>
 
-    
     <!-- filter -->
 
-    <!-- <div class="fil_place"> -->
+    <div class="fil_place">
       <div class="div_fil">
         <select class="fil_by_loc">
           <option value="">Filter By Place</option>
@@ -292,53 +408,105 @@
           <option value="Shimla">Shimla</option>
           <option value="Manali">Manali</option>
         </select>
-  
-        <div>
-          <input id="Search" type="text" placeholder="Search"/>
+
+        <div id="abcd">
+          <input id="Search" type="text" placeholder="Search" />
+        </div>
+        <div id="sorting">
+          <div>
+            <div>
+              <label for="vol">From</label>
+              <input class="rangeslider" type="range" id="low" name="vol" value="0" min="0" max="35000">
+              <span id="lowprice">Rs: 0</span>
+            </div>
+            <div>
+              <label for="vol">To</label>
+              <input class="rangeslider" type="range" id="high" name="vol" value="35000" min="0" max="35000">
+              <span id="highprice">Rs: 35000</span>
+            </div>
+          </div>
+          
+         
+          <!-- <input type="text" placeholder="From" id="low" /> -->
+          <!-- <input type="text" placeholder="To" id="high" /> -->
+          <button id="sort_btn">Filter By Price</button>
         </div>
       </div>
-  
-      <!-- </div> -->
-  
-     
+    </div>
 
-   
-
-   <div id="slideshow">
+    <div id="slideshow">
       <div>
-        <img src="https://wallpapers.com/images/high/ultra-wide-nature-wg3fo21njjv2n9nd.webp" alt="">
-        <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/11/cover-image-of-Things-To-Do-In-Goa_22nd-nov.jpg" alt="">
+        <img
+          src="https://c4.wallpaperflare.com/wallpaper/423/247/680/waterfall-ban-gioc-detian-falls-ban-gioc-detian-falls-body-of-water-wallpaper-preview.jpg"
+          alt=""
+        />
+        <img
+          src="https://www.tamilnadutourism.tn.gov.in/img/pages/large-desktop/karaivetti-bird-sanctuary-1656301278_f76c6a4437308c0e58f2.webp"
+          alt=""
+        />
       </div>
       <div>
-        <img src="https://www.indiadrivertours.com/wp-content/uploads/2021/10/touroftaj.jpg" alt="">
-        <img src="https://cdn.pixabay.com/photo/2012/12/14/09/26/winter-69927_960_720.jpg" alt="">
+        <img
+          src="https://www.edreams.com/blog/wp-content/uploads/sites/3/2014/01/yak-in-himalayas.jpg"
+          alt=""
+        />
+        <img
+          src="https://cdn.pixabay.com/photo/2012/12/14/09/26/winter-69927_960_720.jpg"
+          alt=""
+        />
       </div>
       <div>
-        <img src="https://images.thrillophilia.com/image/upload/s--JTJ_YRyw--/c_fill,g_center,h_642,q_auto,w_1280/f_auto,fl_strip_profile/v1/images/photos/000/178/933/original/1573728743_ranthambore.jpg.jpg" alt="">
-        <img src="https://i0.wp.com/geolearn.in/wp-content/uploads/2021/11/Himalayas-Mountain.jpg" alt="">
-
+        <img
+          src="https://www.nativeplanet.com/img/1200x60x675/2022/08/hd-wallpaper-2836301-1920-1660125209.jpg"
+          alt=""
+        />
+        <img
+          src="https://c4.wallpaperflare.com/wallpaper/521/588/904/5k-uhd-gmunden-mountain-lake-bad-goisern-wallpaper-preview.jpg"
+          alt=""
+        />
       </div>
-     
-     <div>
- 
-        <img src="https://wallpapers.com/images/high/ultra-wide-nature-wg3fo21njjv2n9nd.webp" alt="">
-        <img src="assets/pxfuel.jpg" alt="">
+
+      <div>
+        <img
+          src="https://journalsofindia.com/wp-content/uploads/2021/06/4th-Tiger-Reserve-of-Rajasthan-1-750x375.jpg"
+          alt=""
+        />
+        <img
+          src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ia5trv1rbfdm2j2tqjm9/Hualien:%20Xiuguluan%20River%20Rafting%20Experience.jpg"
+          alt=""
+        />
       </div>
       <div>
-        <img src="assets/pxfuel.jpg" alt="">
-        <img src="https://cdn.pixabay.com/photo/2012/12/14/09/26/winter-69927_960_720.jpg" alt="">
+        <img
+          src="https://images.hindustantimes.com/img/2022/12/18/1600x900/FjyEzwPUoAIsumu_1671346621939_1671346655806_1671346655806.jpg"
+          alt=""
+        />
+        <img
+          src="https://onlinetourandtravel.com/wp-content/uploads/2020/05/Online-Tour-and-Travel-Saurastra.jpg"
+          alt=""
+        />
       </div>
       <div>
-        <img src="https://cdn.pixabay.com/photo/2012/12/14/09/26/winter-69927_960_720.jpg" alt="">
-        <img src="https://wallpapers.com/images/high/ultra-wide-nature-wg3fo21njjv2n9nd.webp" alt="">
-
-      </div>  
-     
-    </div> 
- 
-
-    
-
+        <img
+          src="https://onlinetourandtravel.com/wp-content/uploads/2021/11/Explore-Gujarat-With-Palitana.webp"
+          alt=""
+        />
+        <img
+          src="https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Jantar-Mantar_1400.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTKLsJPRwN0v05pRNjg-QhmqYSd9NzZPueE1cVrTvyg&usqp=CAU&ec=48665701"
+          alt=""
+        />
+        <img
+          src="https://himachalwatcher.com/wp-content/uploads/2017/01/travel-himachal.jpg"
+          alt=""
+        />
+      </div>
+    </div>
 
     <div id="destination"></div>
 
@@ -399,6 +567,7 @@
         </div>
       </div>
     </footer>
+
     <div id="copyright">
       <p>2023 © Green Escapes Eco Tourism. All right reserved.</p>
     </div>
