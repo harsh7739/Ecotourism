@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Page</title>
-    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="edit.css">
 </head>
 <body>
-    
+
     <div class="navbar">
 	
         <div class="logo">
@@ -35,27 +35,15 @@
         </div>  
     </div>
 
-
-    <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Location</th>
-            <th>Details</th>
-            
-          </tr>
-        <thead>
-        <tbody id="append">
-         
-        </tbody>
-    </table>
-
-
+    <div id="inputs">
+        <input type="number" id="id" placeholder="id">
+        <input type="text" id="updImg" placeholder="image url">
+        <input type="text" id="updLoc" placeholder="location">
+        <input type="text" id="updTitle" placeholder="title">
+        <input type="text" id="updDesc" placeholder="description">
+        <button id="patchData">Patch Data</button>
+</div>
     
 </body>
-<script src="main.js"></script>
-
-  
-   
-
+<script src="edit.js"></script>
 </html>
