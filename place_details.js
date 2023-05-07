@@ -9,7 +9,7 @@ let data = [
     duration: "9 Days/ 8 Nights",
     price: 25000,
     Rating: 4.5,
-    info: "Our 9 days tour package will include fooding, lodging, and transportation facility. We will book the hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing. You will be responsible for your own belongings. It will be our pleasure to deal with your queries",
+    info: "Our 9 days tour package will include fooding, lodging, and transportation facility. We will book the hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing. You will be responsible for your own belongings. It will be our pleasure to deal with your queries.hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing.hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing.",
     description:
       "After arriving at Ranthambore after noon (1st day), you will check into the forest reserve which we have booked in advance. To douse your tiredness of long air travel, you can take a nap or small rest in the resort. The evening will come with a small sightseeing exploration of the park. The open top jeep safari trips will let you be aware of the jungle milieu better. Comfortable and peaceful overnight stay at the forest reserve will shove off all your tiredness of the travel and will prepare you to take the full day forest tour and Tiger trailing next day (2nd day),",
   },
@@ -37,7 +37,7 @@ let data = [
     duration: "02 nights / 03 days",
     price: 10500,
     Rating: 4,
-    info: "Our tour package will include the cost of your fooding, lodging, and travelling. Any cost other than these, you will have to bear the cost. We will be providing you the best possible free facility of tour guide. Any loss and harm of any of your luggage will not be our responsibility. Transportation while sightseeing will be managed by us. Timings and programs are subject to change.",
+    info: "Our tour package will include the cost of your fooding, lodging, and travelling. Any cost other than these, you will have to bear the cost. We will be providing you the best possible free facility of tour guide. Any loss and harm of any of your luggage will not be our responsibility. Transportation while sightseeing will be managed by us. Timings and programs are subject to change.you will have to bear the cost. We will be providing you the best possible free facility of tour guide. Any loss and harm of any of your luggage will not be our responsibility.esides, a small visit to the Royal Botanical Garden will prove to be an introductory session of Nepal's extensive wildlife and Himalayan Tour. When your jungle encounter will be over, on the 5th day, you will moving to Pokhara. To get rid of all your wildlife fearfulness which haunted you at Chitwan, Pokhara is the best place. The abundance of lakes and pa",
     description:
       "On the 1st day of your tour, you will be landing at the International airport of Kathmandu. After overnight stay at the hotel, the tour comes to its full extent next day (2nd day) as you will be taking sightseeing travel to the National Capital of Nepal, Kathmandu. Visit to a pack of important Hindu religious temples like Pashupatinath, Kashthamandap, Machchendra Nath Temple, Manakamna, and Mukti Nath will let you vow before several Hindu Gods and get blessed. Besides, a small visit to the Royal Botanical Garden will prove to be an introductory session of Nepal's extensive wildlife and Himalayan Tour. When your jungle encounter will be over, on the 5th day, you will moving to Pokhara. To get rid of all your wildlife fearfulness which haunted you at Chitwan, Pokhara is the best place. The abundance of lakes and panoramic Himalaya beauty is worth enchanting you with its deep serenity prevailing everywhere. For the whole next day, 6th day, you will busy yourself by visiting several of its important places like Barahi Temple, world peace Pagoda, Devi's Fall",
   },
@@ -253,6 +253,20 @@ let data = [
       "Nanital on 1st day, next day  you will set out to see the Rohtang Pass. The pass connecting the Kullu valley with Spiti and Lahaul valley of Himachal owns very beautiful sightseeing places. You will love to walk along with the bank of Dashohar lake amidst the snow capped peaks of mountains. Again, you will be visiting the Rohtang pass next day, 3rd day, when you will be moving to Batal. Lying in the foothills of Kunzum pass. After you have passed Kunzum pass, you will began your trekking on 4th day as you take 4 hour trekking and reach to Chander Tal, better called Lake of Moon. The next two days (5th and 6th day), you will be dwelling at the Chander Tal, and enjoying its unique natural milieu. You will love to stay for three overnight in the tent amidst the Himalayan snow covered peaks. ",
   }, 
   {
+    name: "kufri fun park",
+    location: "Shimla",
+    img1: `https://i.ytimg.com/vi/W_7-8Bx9_Wk/maxresdefault.jpg`,
+    img2: `https://images.thrillophilia.com/image/upload/s--VI_QYq3E--/c_fill,g_auto,h_600,q_auto,w_975/f_auto,fl_strip_profile/v1/images/photos/000/320/291/original/1592639342_1585905710_rs_w_1300_h_800_(1).jpg.jpg.jpg?1592639342`,
+    img3: `https://www.travelxp.com/pages/wp-content/uploads/2021/07/Paragliding-1.jpg`,
+    map: `https://www.corbettonline.in/image/jim-corbett-map.jpg`,
+    duration: "1 nights / 1 days",
+    price: 2000,
+    Rating: 3.2,
+    info: "Our  days tour package will include only lodging, fooding and sight seeing costs. An experienced guide will be provided to you by us free of cost . We will be providing transportation facility during the tour. To make your tour convenient, hotels will be booked in advance by us. Costs of facilities other than fooding, lodging and sight seeing will not be borne by us.will be provided to you by us free of cost . We will be providing transportation facility during the tour. To make your tour convenient, hotels will be booked in advance by us. Costs of facilities other than fooding, lodging and sight seeing will not be borne by us.will be provided to you by us free of cost . We will be providing transportation facility during the tour. To make your tour convenient, hotels will be booked in advance by us. Costs of facilities other than fooding, lodging and sight seeing will not be borne by us.with the bank of Dashohar lake amidst the snow capped peaks of mountains. Again, you will be visiting the Rohtang pass next day, 3rd day, when you will be moving to Batal. Lying in the foothills of Kunzum pass. After you have passed Kunzum pass,",
+    description:
+      "Nanital on 1st day, next day  you will set out to see the Rohtang Pass. The pass connecting the Kullu valley with Spiti and Lahaul valley of Himachal owns very beautiful sightseeing places. You will love to walk along with the bank of Dashohar lake amidst the snow capped peaks of mountains. Again, you will be visiting the Rohtang pass next day, 3rd day, when you will be moving to Batal. Lying in the foothills of Kunzum pass. After you have passed Kunzum pass, you will began your trekking on 4th day as you take 4 hour trekking and reach to Chander Tal, better called Lake of Moon. The next two days (5th and 6th day), you will be dwelling at the Chander Tal, and enjoying its unique natural milieu. You will love to stay for three overnight in the tent amidst the Himalayan snow covered peaks. with the bank of Dashohar lake amidst the snow capped peaks of mountains. Again, you will be visiting the Rohtang pass next day, 3rd day, when you will be moving to Batal. Lying in the foothills of Kunzum pass. After you have passed Kunzum pass,with the bank of Dashohar lake amidst the snow capped peaks of mountains. Again, you will be visiting the Rohtang pass next day, 3rd day, when you will be moving to Batal. Lying in the foothills of Kunzum pass. After you have passed Kunzum pass,",
+  },
+  {
     name: "Manali Himalayas Tour",
     location: "Manali",
     img1: `https://www.wiredforadventure.com/wp-content/uploads/2018/07/keadventure.com-Nepal-Trekking-resize.jpg`,
@@ -309,9 +323,23 @@ let data = [
       "Patna on 1st day, next day  you will set out to see the Rohtang Pass. The pass connecting the Kullu valley with Spiti and Lahaul valley of Himachal owns very beautiful sightseeing places. You will love to walk along with the bank of Dashohar lake amidst the snow capped peaks of mountains. Again, you will be visiting the Rohtang pass next day, 3rd day, when you will be moving to Batal. Lying in the foothills of Kunzum pass. After you have passed Kunzum pass, you will began your trekking on 4th day as you take 4 hour trekking and reach to Chander Tal, better called Lake of Moon. The next two days (5th and 6th day), you will be dwelling at the Chander Tal, and enjoying its unique natural milieu. You will love to stay for three overnight in the tent amidst the Himalayan snow covered peaks. ",
   },
   {
+    name: "Enchanting Hill Stations",
+    location: "Shimla",
+    img1: `https://static2.tripoto.com/media/filter/tst/img/1528747/TripDocument/1590869423_mussoorie_wanderworms.jpg.webp`,
+    img2: `https://dynamic.tourtravelworld.com/blog_images/enchanting-hill-stations-near-shimla-for-a-perfect-vacation-20210621053017.jpg`,
+    img3: `https://www.localsamosa.com/wp-content/uploads/2020/11/hp-1.jpg`,
+    map: `https://i0.wp.com/himtimes.com/wp-content/uploads/2013/10/tourist_guide_map.jpg?fit=600%2C352&ssl=1`,
+    duration: "7 Days/ 8 Nights",
+    price: 27000,
+    Rating: 4.5,
+    info: "Our 9 days tour package will include fooding, lodging, and transportation facility. We will book the hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing. You will be responsible for your own belongings. It will be our pleasure to deal with your queries.hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing.hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing.pleasure to deal with your queries.hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing.hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing.",
+    description:
+      "After arriving at Ranthambore after noon (1st day), you will check into the forest reserve which we have booked in advance. To douse your tiredness of long air travel, you can take a nap or small rest in the resort. The evening will come with a small sightseeing exploration of the park. The open top jeep safari trips will let you be aware of the jungle milieu better. Comfortable and peaceful overnight stay at the forest reserve will shove off all your tiredness of the travel and will prepare you to take the full day forest tour and Tiger trailing next day (2nd day),booked in advance. To douse your tiredness of long air travel, you can take a nap or small rest in the resort. The evening will come with a small sightseeing exploration of the park. The open top jeep safari trips will let you be aware of the jungle milieu better. Comfortable and peaceful overnight stay at the forest reserve will shove off all your tirednes",
+  },
+  {
     name: "Mount Abu Hill stations",
     location: "Rajasthan",
-    img1: `https://pyt-blogs.imgix.net/2020/07/Abu-1.jpeg?auto=format&ixlib=php-3.3.0`,
+    img1: `https://www.outlookindia.com/outlooktraveller/public/uploads/articles/explore/Lead1.jpg`,
     img2: `https://img.veenaworld.com/wp-content/uploads/2022/12/8-Hotels-Resorts-In-Mount-Abu-Near-Nakki-Lake-to-Add-to-Your-Bucket-List-scaled-e1672135465388.jpg`,
     img3: `https://im.hunt.in/cg/Mount-Abu/City-Guide/sunset-point-mount-abu.jpg`,
     map: `http://www.ecoindia.com/gifs/bandhipur-tourmap.jpg`,
@@ -449,6 +477,49 @@ let data = [
       "Delhi on 1st day, next day  you will set out to see the Rohtang Pass. The pass connecting the Kullu valley with Spiti and Lahaul valley of Himachal owns very beautiful sightseeing places. You will love to walk along with the bank of Dashohar lake amidst the snow capped peaks of mountains. Again, you will be visiting the Rohtang pass next day, 3rd day, when you will be moving to Batal. Lying in the foothills of Kunzum pass. After you have passed Kunzum pass, you will began your trekking on 4th day as you take 4 hour trekking and reach to Chander Tal, better called Lake of Moon. The next two days (5th and 6th day), you will be dwelling at the Chander Tal, and enjoying its unique natural milieu. You will love to stay for three overnight in the tent amidst the Himalayan snow covered peaks. ",
   },
 
+  {
+    name: "Himalaya tour",
+    location: "Shimla",
+    img1: `https://tripindia.co.in//uploads/Paragliding-Tour-to-Manali1.jpg`,
+    img2: `https://thumbs.dreamstime.com/b/view-himalaya-shimla-mountains-amazing-you-will-get-himalayan-hotels-239777322.jpg.jpg`,
+    img3: `https://shimlablog.files.wordpress.com/2013/07/www-thefunlearning-com_beautiful-shimla-india-1.jpeg`,
+    map: `https://i0.wp.com/himtimes.com/wp-content/uploads/2013/10/tourist_guide_map.jpg?fit=600%2C352&ssl=1`,
+    duration: "7 Days/ 8 Nights",
+    price: 17000,
+    Rating: 5,
+    info: "Our 9 days tour package will include fooding, lodging, and transportation facility. We will book the hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing. You will be responsible for your own belongings. It will be our pleasure to deal with your queries.hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing.hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing.pleasure to deal with your queries.hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing.hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing.",
+    description:
+      "After arriving at Ranthambore after noon (1st day), you will check into the forest reserve which we have booked in advance. To douse your tiredness of long air travel, you can take a nap or small rest in the resort. The evening will come with a small sightseeing exploration of the park. The open top jeep safari trips will let you be aware of the jungle milieu better. Comfortable and peaceful overnight stay at the forest reserve will shove off all your tiredness of the travel and will prepare you to take the full day forest tour and Tiger trailing next day (2nd day),booked in advance. To douse your tiredness of long air travel, you can take a nap or small rest in the resort. The evening will come with a small sightseeing exploration of the park. The open top jeep safari trips will let you be aware of the jungle milieu better. Comfortable and peaceful overnight stay at the forest reserve will shove off all your tirednes",
+  },
+  {
+    name: "Manali wildlife sentuary",
+    location: "Manali",
+    img1: `https://i0.wp.com/himtimes.com/wp-content/uploads/2023/01/Kheerganga-National-Park.jpg?fit=750%2C501&ssl=1`,
+    img2: `https://swastikholiday.com/blog/wp-content/uploads/2021/11/wildlife-sanctuary-himachal-pradesh-e1637827481316.jpg`,
+    img3: `https://www.exploreourindia.com/backend/web/images/post/big/8020_Kais%20Wildlife%20Sanctuary.webp`,
+    map: `https://cdn-assets.alltrails.com/static-map/production/area/10188470/parks-india-himachal-pradesh-manali-wildlife-sanctuary-10188470-20230403082138000000-763x240-1.png`,
+    duration: "04 nights / 05 days",
+    price: 27000,
+    Rating: 5,
+    info: "Our tour package will include the cost of your fooding, lodging, and travelling. Any cost other than these, you will have to bear the cost. We will be providing you the best possible free facility of tour guide. Any loss and harm of any of your luggage will not be our responsibility. Transportation while sightseeing will be managed by us. Timings and programs are subject to change.",
+    description:
+      "On the 1st day of your tour, you will be landing at the International airport of Kathmandu. After overnight stay at the hotel, the tour comes to its full extent next day (2nd day) as you will be taking sightseeing travel to the National Capital of Nepal, Kathmandu. Visit to a pack of important Hindu religious temples like Pashupatinath, Kashthamandap, Machchendra Nath Temple, Manakamna, and Mukti Nath will let you vow before several Hindu Gods and get blessed. Besides, a small visit to the Royal Botanical Garden will prove to be an introductory session of Nepal's extensive wildlife and Himalayan Tour. When your jungle encounter will be over, on the 5th day, you will moving to Pokhara. To get rid of all your wildlife fearfulness which haunted you at Chitwan, Pokhara is the best place. The abundance of lakes and panoramic Himalaya beauty is worth enchanting you with its deep serenity prevailing everywhere. For the whole next day, 6th day, you will busy yourself by visiting several of its important places like Barahi Temple, world peace Pagoda, Devi's Fall",
+  },
+  {
+    name: "Himachal Pradesh himalaya tour",
+    location: "Shimla",
+    img1: `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGJjjyrF789wnpCN06-s3M4dcntgS76UZLBu6tSZiI1nHXzle9Y-18lUEJvHkXI16LcfEWMXIo0ic&usqp=CAU&ec=48665701`,
+    img2: `https://dynamic.tourtravelworld.com/blog_images/enchanting-hill-stations-near-shimla-for-a-perfect-vacation-20210621053017.jpg`,
+    img3: `https://peakvisor.com/img/news/Himachal-Pradesh-Himalaya-Mulkila.jpg`,
+    map: `https://i0.wp.com/himtimes.com/wp-content/uploads/2013/10/tourist_guide_map.jpg?fit=600%2C352&ssl=1`,
+    duration: "7 Days/ 8 Nights",
+    price: 14000,
+    Rating: 4.5,
+    info: "Our 9 days tour package will include fooding, lodging, and transportation facility. We will book the hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing. You will be responsible for your own belongings. It will be our pleasure to deal with your queries.hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing.hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing.pleasure to deal with your queries.hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing.hotel of your choice in advance.We will provide you an experienced and educated guide.We won't bear any costs of services other than fooding, lodging and sight seeing.",
+    description:
+      "After arriving at Ranthambore after noon (1st day), you will check into the forest reserve which we have booked in advance. To douse your tiredness of long air travel, you can take a nap or small rest in the resort. The evening will come with a small sightseeing exploration of the park. The open top jeep safari trips will let you be aware of the jungle milieu better. Comfortable and peaceful overnight stay at the forest reserve will shove off all your tiredness of the travel and will prepare you to take the full day forest tour and Tiger trailing next day (2nd day),booked in advance. To douse your tiredness of long air travel, you can take a nap or small rest in the resort. The evening will come with a small sightseeing exploration of the park. The open top jeep safari trips will let you be aware of the jungle milieu better. Comfortable and peaceful overnight stay at the forest reserve will shove off all your tirednes",
+  },
+
 ];
 
 
@@ -512,6 +583,31 @@ loc_fil.addEventListener("change", ()=>{
 })
 
 
+let low = document.getElementById("low")
+let lowprice = document.getElementById("lowprice")
+low.addEventListener("change" , ()=>{
+  lowprice.innerText = `Rs: ${low.value}`
+})
+let high = document.getElementById("high")
+let highprice = document.getElementById("highprice")
+high.addEventListener("change" , ()=>{
+  highprice.innerText = `Rs: ${high.value}`
+})
+// sorting price range
+
+let sort_btn = document.getElementById("sort_btn")
+sort_btn.addEventListener("click", (item)=>{
+  let low = document.getElementById("low")
+  let high = document.getElementById("high")
+  console.log(low.value , high.value);
+
+// console.log(data)
+
+let sortdata =  data.filter((item)=> item.price >= low.value && item.price <= high.value)
+   
+show_places(sortdata)
+  
+  })
 
 
 
@@ -561,3 +657,20 @@ let interval = setInterval(() => {
 
   images[Index].classList.add('active');
 }, 2000); 
+
+
+let navMenu = document.getElementById("navMenu");
+let close_btn = document.getElementById("close_btn");
+
+close_btn.addEventListener("click" , ()=>{
+  if (navMenu.style.right == '0px') {
+    navMenu.style.right = '-100%'
+    navMenu.style.display = 'none'
+  }
+  else{
+    navMenu.style.right = '0px'
+    navMenu.style.display = 'flex'
+  }
+})
+
+
