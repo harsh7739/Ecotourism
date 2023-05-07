@@ -54,3 +54,18 @@ paymentParent.innerHTML = `
    <h4><i class="fa-solid fa-location-dot"></i>  <span>Location : ${data.location} </span> </h4>
    <h4> <i class="fa-solid fa-plane-departure"></i> <span>  Duration : ${data.duration}</span></h4>
 </div>`
+
+
+let navMenu = document.getElementById("navMenu");
+let close_btn = document.getElementById("close_btn");
+
+close_btn.addEventListener("click" , ()=>{
+  if (navMenu.style.right == '0px') {
+    navMenu.style.right = '-100%'
+    navMenu.style.display = 'none'
+  }
+  else{
+    navMenu.style.right = '0px'
+    navMenu.style.display = 'flex'
+  }
+})

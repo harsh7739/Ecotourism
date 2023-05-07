@@ -48,6 +48,11 @@
       border-radius: 4px;
    }
 
+
+
+
+
+   
    #signInbtn button {
       padding: 5px 15px;
       font-size: larger;
@@ -188,7 +193,72 @@
       border-radius: 4px;
    }
 
+/* mediaa */
+@media only screen and (max-width: 500px) {
+    
+   #signinform {
+      /* background-color: red; */
+      flex-direction: column;
+      gap: 30px;
+      margin: 30px auto;
+     
+   }
+#form_pay{
+   padding: 20px;
+   /* background-color: red; */
+   border-radius: 30px;
+}
 
+
+
+
+    footer {
+      margin-top: 10px;
+      flex-direction: column;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-left: 30px;
+      margin-top: 10px;
+    }
+    #footerSec a {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+    #copyright {
+      background-color: rgb(255 215 90);
+    }
+    nav {
+      background-color: #4e9890;
+    }
+
+    #navMenu {
+      position: absolute;
+      background: #4e9890;
+      top: 54px;
+      height: 100vh;
+      right: -100%;
+      justify-content: flex-start;
+      padding: 15px;
+      gap: 15px;
+      flex-direction: column;
+      display: none;
+      transition: right 1.5s;
+    }
+   
+/*   
+    #signInbtn{
+      display: flex;
+      gap: 10px;
+    } */
+
+  
+ 
+  }
+/* mediaa */
 
 </style>
 
@@ -224,6 +294,7 @@
 
       <div id="signInbtn">
          <button><i class="fa-solid fa-user"></i> Sign In</button>
+         <button id="close_btn"><i class="fa-solid fa-bars"></i></button>
       </div>
    </nav>
 
