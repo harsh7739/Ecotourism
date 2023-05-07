@@ -19,9 +19,9 @@ window.addEventListener('scroll', e => {
 
 });
 
-//appending the body//
 
-fetch("https://blog-database-gules.vercel.app/data")
+
+fetch("https://mock-server-new-br13.onrender.com/users")
     .then((res) => {
         return res.json();
     })
@@ -46,16 +46,13 @@ function display(data) {
         let td1 = document.createElement("td")
         let td2 = document.createElement("td")
         let td3 = document.createElement("td")
-        let td4 = document.createElement("td")
-        let td5 = document.createElement("td")
 
-        td1.innerText = element.name;
+        td1.innerText = element.title;
         td2.innerText = element.location;
-        td3.innerText = element.price;
-        td4.innerText = element.duration;
-        td5.innerText = element.Rating;
+        td3.innerText = element.details;
+       
 
-        tr.append(td1, td2, td3, td4, td5)
+        tr.append(td1, td2, td3)
         body.append(tr);
     })
 
