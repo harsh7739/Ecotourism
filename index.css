@@ -7,7 +7,7 @@
 
 #mainimg{
     height: 850px;
-    width: 1518px;
+    width: 100%;
     position: absolute;
     z-index: -999;
 }
@@ -15,7 +15,6 @@
 #mainBody{
     display: flex;
     justify-content: center;
-    /* margin-top: 10px; */
 }
 
 #mainBody h1{
@@ -32,6 +31,8 @@ nav{
     align-items: center;
     background-color: #7DBBAB;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 100%;
+    height: 50px;
 }
 
 #navMenu{
@@ -48,7 +49,7 @@ nav{
 }
 
 #navMenu a:hover{
-    color: #ffca1a;
+    color: #d4ff00;
 }
 
 #signInbtn button{
