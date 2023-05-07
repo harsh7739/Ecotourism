@@ -611,13 +611,6 @@ show_places(sortdata)
 
 
 
-
-
-
-
-
-// search bar
-
     Search.addEventListener("input", function (){
         console.log(Search.value);
     
@@ -634,10 +627,6 @@ show_places(sortdata)
 
 
 
-
-
-
-// })
 
 let slideshow = document.getElementById('slideshow');
 let images = slideshow.getElementsByTagName('div');
