@@ -24,12 +24,19 @@
       /* background-color: #0d5066; */
     }
     /* nav */
+ 
+
+
+
     nav {
       display: flex;
       justify-content: space-around;
       align-items: center;
       background-color: #4e9890;
-      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      position: fixed;
+      width: 100%;
+      top: 0px;
+
     }
 
     #navMenu {
@@ -120,18 +127,11 @@
       padding: 5px;
       font-weight: bold;
     }
-    /* footer end*/
-    #destination {
-      /* display: flex;
-      justify-content: center; */
-    }
+  
     .ds_info {
       display: grid;
       grid-template-columns: 60% 40%;
-      /* border: 1px solid red; */
-      /* display: flex;
-      flex-wrap: wrap; */
-      margin: 20px auto;
+      margin: 70px auto;
       gap: 20px;
       width: 100%;
       justify-content: center;
@@ -221,6 +221,72 @@
     }
 
 
+    /* mediaa query */
+    @media only screen and (max-width: 500px) {
+    
+      footer {
+        margin-top: 10px;
+        flex-direction: column;
+        /* color: rgb(18, 16, 16); */
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        margin-top: 10px;
+      }
+      #footerSec a {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        color: white;
+        text-decoration: none;
+      }
+
+      #copyright {
+        background-color: rgb(255 215 90);
+      }
+      nav {
+        background-color: #4e9890;
+      }
+
+      #navMenu {
+        position: absolute;
+        background: #4e9890;
+        top: 93px;
+        height: 100vh;
+        right: -100%;
+        justify-content: flex-start;
+        padding: 15px;
+        gap: 15px;
+        flex-direction: column;
+        display: none;
+        transition: right 1.5s;
+      }
+     
+    
+      #signInbtn{
+        display: flex;
+        gap: 10px;
+      }
+
+      .ds_info{
+        grid-template-columns: 100%;
+        gap: 15px;
+        padding: 10px;
+      }
+      .package {
+      margin: 10px 10px;
+      text-align: center;
+    }
+    .ds_summary {
+      grid-template-columns: 100%;
+      margin: 20px;
+      object-fit: none;
+      padding: 20px;
+    }
+
+    }
+    /* mediaa query */
+
   
   </style>
   <body>
@@ -232,6 +298,10 @@
           alt=""
         />
       </div>
+
+
+  
+
 
       <div id="navMenu">
         <div>
@@ -258,8 +328,12 @@
 
       <div id="signInbtn">
         <button><i class="fa-solid fa-user"></i> Sign In</button>
+        <button id="close_btn"><i class="fa-solid fa-bars"></i></button>
       </div>
     </nav>
+
+
+    
     <div id="destination"></div>
     <footer>
       <div id="footerSec">
