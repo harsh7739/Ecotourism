@@ -1,0 +1,166 @@
+/* <**************---------nav-----------************!> */
+nav{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #7DBBAB;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#navMenu{
+   display: flex;
+   /* border: 2px solid red; */
+   justify-content: space-between;
+   gap: 70px;
+}
+
+#navMenu a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+#navMenu a:hover{
+    color: #ffca1a;
+}
+
+#signInbtn button{
+    width: 100px;
+    height: 40px;
+    font-size: larger;
+    background-color: #FFD75A;
+    border-radius: 25px;
+    border: none;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+
+/* <**************---------nav-----------************!> */
+
+
+#maincont{
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+
+#maincont >div{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+    gap: 10px;
+    /* border: 1px solid rgb(212, 11, 11); */
+}
+#maincont > div >div{
+/* border: 1px solid red; */
+box-shadow:  rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#maincont > div >div {
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid green; */
+    box-shadow:  rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#maincont > div>div>div>img{
+    width: 100%;
+}
+#book{
+    /* background-color: rgb(62, 52, 54); */
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border: none;
+    /* color: deeppink; */
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
+#book:hover{
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: rgb(146, 234, 14);
+    color: red;
+   font-style: oblique;
+}
+/* #formDiv{
+    display: none;
+} */
+#FormMainDiv{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+/* <|*********************Footer*********************!> */
+
+
+footer{
+    margin-top: 20px;
+    background-color: #13162f;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+}
+
+#footerRight img{
+    width: 30px;
+    height: 30px;
+}
+
+#footerRight div{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+footer span{
+    text-decoration: underline;
+}
+
+#footerSec a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#footerMidSec img{
+    width: 30px;
+    height: 30px;
+}
+
+#footerMidSec div{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#copyright{
+    text-align: center;
+    background-color: #13162f;
+    padding-bottom: 15px;
+    color: white;
+}
+
+
+/* <|*********************Footer*********************!> */

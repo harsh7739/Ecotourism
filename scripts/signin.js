@@ -1,13 +1,13 @@
-let navSignin = document.getElementById("navSignin")
-navSignin.addEventListener("click",()=>{
-    window.location.href="./signin.html"
-})
-let navSignup = document.getElementById("navSignin")
-navSignup.addEventListener("click",()=>{
-    window.location.href="./signup.html"
-})
+// let navSignin = document.getElementById("navSignin")
+// navSignin.addEventListener("click",()=>{
+//     window.location.href="./signin.html"
+// })
+// let navSignup = document.getElementById("navSignin")
+// navSignup.addEventListener("click",()=>{
+//     window.location.href="./signup.html"
+// })
 let indata = JSON.parse(localStorage.getItem("account-data"))
-      
+      // console.log(indata)
 let form1 = document.querySelector("form")
 let email=document.getElementById("email")
 let pass = document.getElementById("password")
@@ -37,8 +37,9 @@ function signFun(event){
   else if(pass.value!==el.pass){
     passEl.innerText = "Please Enter correct password"
   }
+  else if(email.value=="admin@gmal.com" && pass.value=="admin"){
+    window.location.href = "./admin.html"
+  }
   
  })
-
- 
 }
