@@ -1,4 +1,11 @@
 
+let signinData = JSON.parse(localStorage.getItem("login"))
+  if(!signinData){
+    alert("you are not login now")
+ window.location.href = "../index.html"
+  }
+    
+    
     let mainSec = document.getElementById("mainSection")
 
     let pageButton = document.getElementById("pageNumber")
