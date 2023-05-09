@@ -15,6 +15,7 @@ form.addEventListener("submit",(event)=>{
     window.location.href = "../admin/add.html"
   }else{
     signFun()
+   
   }
 })
 
@@ -23,10 +24,11 @@ function signFun(){
   head.innerText="Please Enter Your Details"
   emEl.innerText=""
  indata.filter((el)=>{
-  console.log(el)
+  // console.log(el)
+  
   if(email.value===el.email && pass.value===el.pass){
     head.innerText = "Sign in Successful"
-    console.log("Inside filter")
+    alert("singin successfully")
     localStorage.setItem("login",true)
 
     window.location.href = "../index.html"
