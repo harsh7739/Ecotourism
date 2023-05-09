@@ -23,7 +23,7 @@
 width: 40%;
 height: 80%;
 /* margin: auto; */
-background-color: crimson;
+background-color: rgb(36, 45, 69);
 /* border: 1px solid red; */
 }
 
@@ -31,8 +31,8 @@ background-color: crimson;
   /* margin-top: 33px; */
   width: 50%;
   /* margin: auto; */
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background-color: aqua;
+  box-shadow: rgba(255, 255, 255, 0.133) 0px 3px 8px;
+  background-color: rgb(29, 131, 204);
   height: 80%;
 }
 #signin > form > input{
