@@ -1,6 +1,6 @@
 let form = document.querySelector("form")
   let signupdiv = document.getElementById("signup")
-  let name = document.getElementById("name")
+  let username = document.getElementById("name")
  
   let email = document.getElementById("email")
   let pass = document.getElementById("password")
@@ -13,7 +13,7 @@ let form = document.querySelector("form")
     
     // console.log("harsh")
     let obj = {
-      name:name.value,
+      name:username.value,
       email:email.value,
       pass:pass.value
     }

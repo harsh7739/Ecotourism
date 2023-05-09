@@ -1,67 +1,87 @@
-#signupMain{
-   display: flex;
-   /* border: 1px solid red; */
+#outer{
    width: 100%;
-   height: 100%;
-    margin: auto;
-    
-    /* background-color: blue; */
-}
-#welcome{
-   /* border: 1px solid red; */
-   width: 50%;
+   height: 100vh;
    background-image: url("https://t3.ftcdn.net/jpg/00/71/74/56/240_F_71745670_b2ehPBS5664wtO3iBwMcmvIkiw3wC6sd.jpg");
-   /* background-color: blue; */
-   /* margin: auto; */
-  
-}
-.welcoomeTag{
-   padding-left: 30%;
-   padding-top: 40px;
-   margin: auto;
-   color: aqua;
-   font-size: 40px;
-}
-#greenEscape{
-   color: brown;
-}
-#welcome img{
-   width: 100%;
-   height: 100%;
-}
-#signup{
-    width: 50%;
-    margin: auto;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: aqua;
-    
- }
- #form > input{
-    width: 90%;
-    display: block;
-    margin: auto;
-    font-size: 25px;
-    margin-bottom: 0px;
- }
-#head{
-   padding-left: 20px;
-}
- .inputEntry{
-   padding-left: 20px;
- }
-
- /* .nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 120px;
-    background-image: url("https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_1200/public/2020-06/VC_Experiences_ReopeningBeaches_RF_1156532604_1280x640.jpg?itok=tPCjquVe");
-    margin-bottom: 20px;
-    margin-top: 10px;
-  } */
-
-  #log{
-    font-size: 20px;
-    padding-left: 20px;
-  }
+   /* opacity: 0.8; */
+   }
+   
+   
+   #signupMain{
+      display: flex;
+      /* border: 1px solid red; */
+      width: 70%;
+      height: 70%;
+       margin: auto;
+       /* padding: 5%; */
+   
+   }
+   #welcome{
+      /* border: 1px solid red; */
+      width: 40%;
+       background-color: rgb(24, 187, 43);
+      
+   }
+   #signup{
+      width: 50%;
+      /* margin-top: 20px; */
+      /* margin: auto; */
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      background-color: aqua;
+      
+   }
+   
+   .welcoomeTag{
+      padding-left: 20%;
+      padding-top: 40px;
+      margin: auto;
+      color: rgb(8, 82, 82);
+      font-size: 40px;
+   }
+   #greenEscape{
+      color: brown;
+   }
+   #welcome img{
+      width: 100%;
+      height: 100%;
+   }
+   #logoDiv{
+      width: 60%;
+      margin: auto;
+      margin-top: 40px;
+   }
+   #logoDiv>img{
+      width: 80%;
+   }
+   
+   
+   /* <*********************** Input Form***********************> */
+   
+    #form > input{
+       width: 90%;
+       display: block;
+       margin: auto;
+       font-size: 25px;
+       margin-bottom: 0px;
+    }
+   #head{
+      padding-left: 20px;
+   }
+    .inputEntry{
+      padding-left: 20px;
+    }
+   
+    /* .nav{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       width: 100%;
+       height: 120px;
+       background-image: url("https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_1200/public/2020-06/VC_Experiences_ReopeningBeaches_RF_1156532604_1280x640.jpg?itok=tPCjquVe");
+       margin-bottom: 20px;
+       margin-top: 10px;
+     } */
+   
+     #log{
+       font-size: 20px;
+       padding-left: 20px;
+     }
