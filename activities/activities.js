@@ -1,4 +1,11 @@
 
+let signinData = JSON.parse(localStorage.getItem("login"))
+  if(!signinData){
+    alert("you are not login now")
+ window.location.href = "../index.html"
+  }
+    
+    
     let mainSec = document.getElementById("mainSection")
 
     let pageButton = document.getElementById("pageNumber")
@@ -88,7 +95,7 @@
 
     // **************************** FETCH REQ ON FULL DATA *********************************
 
-    function filterData(){
+    function filterData(filtByCont = "India"){
 
         let API = "https://mock-server-new-br13.onrender.com/users"
 
@@ -98,8 +105,21 @@
             return res.json()
         })
         .then(function(fullData){
-            console.log(fullData)
-            display(fullData)
+            if(filtByCont.length > 0){
+                DataCont = fullData.filter((elem) =>
+                     elem.location == filtByCont
+                )
+
+                console.log(filtByCont)
+                console.log(DataCont)
+                display(DataCont)
+            }
+
+            else{
+                display(fullData)
+            }
+            
+            
         })
     }
   
@@ -112,15 +132,9 @@
 
         else{
 
-            let filtByCont = globalData.filter(function(elem){
+           
 
-                if(filtTag.value == elem.location){
-                    return true
-                }
-              })
-
-              display(filtByCont)
-              console.log(filtByCont)
+             filterData(filtTag.value)
 
         }
     })
