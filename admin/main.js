@@ -30,7 +30,7 @@ fetch("https://mock-server-new-br13.onrender.com/users")
          display(actData)
     })
     .catch((error) => {
-        console.log(error)
+        console.log(error);
     })
 
 
@@ -44,15 +44,21 @@ function display(data) {
         let tr = document.createElement("tr");
 
         let td1 = document.createElement("td")
+        let image = document.createElement("img")
+        image.setAttribute("src", element.image)
+        td1.append(image)
+
         let td2 = document.createElement("td")
         let td3 = document.createElement("td")
+        let td4 = document.createElement("td")
 
-        td1.innerText = element.title;
-        td2.innerText = element.location;
-        td3.innerText = element.details;
+        td2.innerText = element.title;
+        td3.innerText = element.location;
+        td4.innerText = element.details;
+
        
 
-        tr.append(td1, td2, td3)
+        tr.append(td1, td2, td3,td4)
         body.append(tr);
     })
 
