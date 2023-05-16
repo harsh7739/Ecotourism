@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://kit.fontawesome.com/7a4d6432b5.js"
+      crossorigin="anonymous"
+    ></script>
     <title>ECO TOURISM</title>
     <link rel="stylesheet" href="./index.css">
 </head>
@@ -39,6 +43,7 @@
 
         <div id="signInbtn">
            <button> <a href="/sign/signin.html"><i class="fa-solid fa-user"></i> Sign In</a></button>
+           <button id="close_btn"><i class="fa-solid fa-bars"></i></button>
         </div>
     </nav>
 
@@ -209,3 +214,18 @@
     </div>
 </body>
 </html>
+
+<script>
+    let close_btn = document.getElementById("close_btn");
+
+close_btn.addEventListener("click" , ()=>{
+  if (navMenu.style.right == '0px') {
+    navMenu.style.right = '-100%'
+    navMenu.style.display = 'none'
+  }
+  else{
+    navMenu.style.right = '0px'
+    navMenu.style.display = 'flex'
+  }
+})
+</script>
