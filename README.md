@@ -11,6 +11,8 @@ Features:
 Homepage: A visually appealing landing page that showcases the essence of eco tourism, featuring high-quality images and engaging content.
 Destination Pages: Detailed pages for various eco-friendly destinations, providing information about the location, activities, accommodations, and contact details.
 
+![Screenshot (518)](https://github.com/harsh7739/odd-grass-4307/assets/123920314/10379303-5476-4c1f-bf0a-b7cb5db03e21)
+
 Booking System: A booking system that allows users to select a destination, choose their preferred dates, and make a reservation for accommodations or activities.
 
 Responsive Design: The website is designed to be responsive, ensuring optimal viewing and interaction across different devices and screen sizes.
