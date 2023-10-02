@@ -1,5 +1,15 @@
 Eco Tourism Website Clone - Documentation:
 
+Team Member :-
+
+Harshranjan Kumar (Team Lead)
+
+MOHD ADIL
+
+Priya Patole
+
+Kumar Astik
+
 Overview:
 This documentation provides an overview of the project "Eco Tourism," which involved cloning an existing eco tourism website using JavaScript, HTML, and CSS. The project was completed by a group of four individuals over a span of five days. This documentation aims to explain the purpose, features, and implementation details of the cloned website.
 
